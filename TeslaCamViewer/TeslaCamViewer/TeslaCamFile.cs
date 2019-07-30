@@ -18,7 +18,8 @@ namespace TeslaCamViewer
             FRONT,
             RIGHT_REPEATER
         }
-        private readonly string FileNameRegex = "([0-9]{4}-[0-9]{2}-[0-9]{2}_[0-9]{2}-[0-9]{2})-([a-z_]*).mp4";
+        //private readonly string FileNameRegex = "([0-9]{4}-[0-9]{2}-[0-9]{2}_[0-9]{2}-[0-9]{2})-([a-z_]*).mp4";
+        private readonly string FileNameRegex = "([0-9]{4}-[0-9]{2}-[0-9]{2}_[0-9]{2}-[0-9]{2}-[0-9]{2})-([a-z_]*).mp4";
         public string FilePath { get; private set; }
         public string FileName { get { return System.IO.Path.GetFileName(FilePath); } }
         public TeslaCamDate Date { get; private set; }

@@ -9,8 +9,8 @@ namespace TeslaCamViewer
 {
     public class TeslaCamDate
     {
-        private const string FileFormat = "yyyy-MM-dd_HH-mm";
-        private const string DisplayFormat = "M/d/yyyy h:mm tt";
+        private const string FileFormat = "yyyy-MM-dd_HH-mm-ss";
+        private const string DisplayFormat = "yyyy-MM-dd hh:mm:ss";
 
         public string UTCDateString { get; private set; }
         public string DisplayValue
